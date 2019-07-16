@@ -1,0 +1,96 @@
+
+.h1-tintuc{
+	    padding-right: 15px;
+    padding-left: 15px;
+}
+.nd-image{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.nd-image img{
+	position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    z-index: 4;
+}	
+.back-hover{
+	position: absolute;
+	background: silver;
+	opacity: 0.3;
+	width: 100%;
+	height: 100%;
+	top:0;
+	z-index: 3;
+}
+.nd-image:hover .back-hover{
+	z-index: 5;
+}
+.tintuc-nd{
+	margin-top: 3%;
+	color: black;
+	font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+}
+.fix-s{
+	background: none;
+	color: black;
+}
+.view-date{
+	border-bottom: 1px solid silver;
+	padding-bottom: 10px;
+}
+.tintuc-xemthem{
+	position: relative;
+	color:#FF5C00;
+	font-weight: 500;
+	font-size: 16px;
+}
+.tintuc-P{
+	margin-bottom: 3%;
+}
+.dm-tintuc{
+	position: relative;
+	width: 100%;
+	height: auto;
+	border: 1px solid silver;
+}
+.item-tintuc{
+	padding: 10px 40px;
+	font-size: 20px;
+	font-weight: 500;
+	background: #F2F2F2;
+	margin:0;
+
+}
+.dm-tintuc:before{
+	content: "\f219";
+    position: absolute;
+    font-family: fontawesome;
+    font-size: 20px;
+    color: #FF5C00;
+    left: 4px;
+    top: 10px;
+    right: auto;
+    bottom: auto;
+    font-weight: 600;
+}
+.tintuc-nd:hover{
+	 color: #FF5C00;
+}
+.dm-tintuc ul{
+	margin:0;
+	padding:0;
+}
+.dm-tintuc ul li{
+	font-size: 16px;
+	margin:0;
+	padding: 10px 10px;
+	border-bottom: 1px solid silver;
+}.inhoa{
+	font-weight: 600;
+	font-size: 16px;
+}

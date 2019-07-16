@@ -1,0 +1,68 @@
+.danh-gia{
+	margin-top: 2%;
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.danh-gia p{
+	width: 100%;
+}
+.danh-gia-danger{
+	font-size: 16px;
+	color: red;
+	font-weight: 500;
+	margin-bottom: 2px;
+}
+.btn-danger:hover{
+	color: black;
+}
+.chitiet-img{
+	position: relative;
+	width: 100%;
+	height: auto;
+	border: 1px solid #EBEBEB;
+	margin-bottom: 2%;
+}
+.chitiet-img img{
+	height: auto;
+    width: 100%;
+    vertical-align: middle;
+    display: inline-block !important;
+}
+.chitiet-noidung p{
+	font-size: 16px;
+}
+.small{
+	font-size: 14px;
+	color: black;
+}
+.text-number2{
+	width: 50px;
+	padding: 5px 5px;
+	align-items: flex-start;
+    text-align: center;
+    border:none;
+}
+.btn-primary{
+	background: white;
+	color: black;
+}
+.btn-primary:hover{
+	color:black;
+}
+.chitiet-btton{
+	margin: 0 10px;
+	color: white;
+	width: auto;	
+	padding: 10px 20px;
+	border-radius: 40px;
+	background: #FF5C00; 
+	border:none;
+}
+.change-number{
+	display: inline-block;
+	position: relative;
+}
+.chitiet-btton:hover{
+	background: #1C639A;
+}

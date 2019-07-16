@@ -1,0 +1,352 @@
+.Danh-muc{
+		border: 1px solid #EBEBEB;
+		width: 100%;
+	}
+	.p-danh-muc{
+		padding: 10px 50px;
+		font-size: 20px;
+		border-bottom: 1px solid #EBEBEB;
+   		background: #F2F2F2;
+   		margin:0;
+	}
+	.p-danh-muc:before{
+	content: "\f219";
+    position: absolute;
+    font-family: fontawesome;
+    font-size: 18px;
+    color: #FF5C00;
+    left: 25px;
+    top: 14px;
+    right: auto;
+    bottom: auto;
+    font-weight: 600;
+	}
+	.list-danhmuc{
+		margin:0;
+		padding: 0;
+		width: 100%;
+		position: relative;
+	}
+	.list-item-danhmuc{
+		margin:0;
+		padding: 10px 10px;	
+		border-bottom: 1px solid #EBEBEB;
+		color: #7D7D7D;
+		font-size: 15px;
+	}
+	.list-item-danhmuc-2{
+		margin:0;
+		padding: 10px 20px;	
+		border-bottom: 1px solid #EBEBEB;
+		color: #7D7D7D;
+		font-size: 15px;
+	}
+	.list-item-danhmuc-2 a{
+		color: #7D7D7D;
+	}
+	.list-item-danhmuc-2 a:hover{
+		color: #FF5C00;
+		text-decoration: none;
+	}
+	.collapse_cape{
+		position: absolute;	
+		right: 5px;
+	}
+	.collapse_cape:after{
+	    content: "-";
+	    font-size: 18px;
+	    padding: 0;
+
+	}
+	.list-item-danhmuc a,.list-item-danhmuc span {
+		color: #7D7D7D;
+	}
+	.list-item-danhmuc a:hover,.list-item-danhmuc span:hover{
+		color: #FF5C00;
+		text-decoration: none;
+	}
+	.collapse_cape.collapsed:after{
+		content: "+";
+		font-size: 18px;
+	}
+	.Loc-san-pham{
+		position: relative;
+		margin-top:10%;
+		border: 1px solid #EBEBEB;border:;
+		width: 100%;
+	}
+	.p-loc-sp{
+		padding: 10px 50px;
+		font-size: 20px;
+		border-bottom: 1px solid #EBEBEB;
+   		background: #F2F2F2;
+   		margin:0;
+	}
+	.p-loc-sp:before{
+	content: "\f219";
+    position: absolute;
+    font-family: fontawesome;
+    top:14px;
+    left: 10px;
+    bottom: auto;
+    right: auto;
+    font-size: 18px;
+    color: #FF5C00;
+    font-weight: 600;
+	}
+	.Loc-san-pham .p-gia{
+		margin-top: 2%;
+		margin-left: 20px;
+		font-size: 18px;
+		font-weight: 600;
+		border-bottom: 1px solid #EBEBEB;
+	}
+.loc-list{
+	margin:0
+}
+.loc-list-item{
+	font-size: 16px;
+	color: #7D7D7D;
+	padding: 5px 0;
+}
+.loc-list-item:hover{
+	color: #FF5C00;
+}
+a:hover{
+	text-decoration: none;
+}
+.fa-th-large:before{
+	
+}
+.showout{
+	margin-top: 3%;
+}
+.fa-th-large{
+	float: left;
+	font-size: 20px;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	width: 40px;
+    height: 40px;
+    display: block;
+    background-color: #FF5C00;
+    line-height: 40px;
+ 	box-sizing: border-box;
+}
+.fa-bars{
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	display: inline-block;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	display: block;
+	background: #FF5C00;
+	line-height: 40px;
+	box-sizing: border-box;
+}
+
+.activede{
+	width: 40px;
+	height: 40px;
+	background: black;
+	line-height: 40px;
+	box-sizing: border-box;
+}
+.form-P{
+    width: auto;
+    height: 40px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.show-listandgrid{
+	display: block;
+	float: left;
+}
+.sort-show{
+	display: inline-block;
+	float: right;
+}
+.sort-show-item{
+	float: right;
+}
+@media all and (max-width: 768px) {
+	
+	.showout{
+		display: inline-flex !important;
+	}
+	.sort-show{
+		float: left !important;
+		display: inline-flex !important;
+	}
+
+}
+/* Sản phẩm */
+.col-item{
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-bottom: 30px;
+    text-align: center;
+    border: 1px solid #EBEBEB;
+}
+.col-img img{
+	position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    z-index: 20;
+    padding: 5px 5px;
+}
+.sale-label{
+	font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    background: #D12631;
+    text-transform: uppercase;
+    padding: 0;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 30;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 0;
+    margin-right: 0;
+    border-radius: 50%;
+}
+.col-nameG{
+	position: relative;
+	margin-bottom: 15px;
+}
+.col-item-nameG{
+	position: relative;
+	z-index: 1;
+	background: white;
+	margin-bottom: 2px;
+}
+.col-img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.col-item-nameG p{
+	margin-top: 5%;
+	font-weight: 500;
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+.gia-col{
+	color: #FF5C00;
+	margin:0;
+	margin-bottom: 5px;	
+	font-size: 17px;
+}
+.hover-item{
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+	background: white;
+	z-index: 0;
+}
+.col-item:hover .col-item-nameG{
+	z-index: 0;
+}
+.col-item:hover .col-img img{
+	z-index:0;
+}
+.col-item:hover .backgroud-hover{
+	background: #EBEBEB;
+}
+.item-mua{
+	border-radius: 40px;
+    background:  #FF5C00;
+    border: 1px solid transparent;
+    color: white;
+    margin: 10px 8px 0 8px;
+    padding: 10px;
+    line-height: 14px;
+    transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
+}
+.backgroud-hover{
+	top:0;
+	background:#fff;
+	opacity: 0.175;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 0;
+}
+.fa-eye{
+	color: white;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+}
+.fa-eye:before{
+	width: 35px;
+	height: 35px;
+	display: block;
+	background: #FF5C00;
+	line-height: 35px;
+	box-sizing: border-box;
+	border-radius: 50%;
+}
+/* End sản phẩm */
+.show-list{
+	width: 100%;
+	height: 100%;
+}
+.show-grid{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.grid-img{
+	width: 30%;
+	float: left;
+	position: relative;
+
+}
+.grid-img img{
+	top:auto;
+	bottom: auto;
+	left: auto;
+	right: auto;
+	padding: 5px 5px;
+}
+.item-grids{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 15px 0 20px !important;
+    text-align: center;
+ 
+}
+.noidung-item{
+	padding: 30px 10px;
+	position: relative;
+	float: left;
+	width: 70%;
+	text-align: left;
+}
+.button-item{
+	bottom: 90%;
+}
